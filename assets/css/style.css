@@ -1,0 +1,98 @@
+html, body {
+    
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    background-image: url('assets/img/gplaypattern.png');
+    font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1;
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+a:hover {
+    color:#636363;
+    }
+a:active {
+    color:#eff4f5;
+    }
+
+.logo {
+    width: 200px;
+    background-color:#4aaaa5;
+}
+.nav {
+    width: 660px;
+    text-align: left;
+    
+}
+.main {
+    float: left;
+    width: 650px;
+    background-color:#ffffff;
+}
+
+.sidebar {
+    float: left;
+    width: 270px;
+
+}
+
+.wrapper {
+
+  }
+
+footer {
+      padding: 20px;
+      background-color: #666666;
+      font-size: 12px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: block;
+  }
+
+  h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color:#4aaaa5;
+}
+
+ul {
+    list-style-type: none;
+}
+
