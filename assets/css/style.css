@@ -3,12 +3,13 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background: url ("../assets/img/gplaypattern.png");
+    background: url("assets/img/gplaypattern.png") #ccc;
    
 }
 
-*{
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .container {
@@ -66,18 +67,15 @@ nav a {
     max-width: 950px;
     margin: 0 auto;
     padding-top: 130px;
-    background-color: #ddd;
-
 }
 
-#main {
+.main {
     float:left;
     max-width: 650px;
     margin: 0 0 40px;
     border: 1px solid #ddd;
     padding: 30px;
     background: #fff;
-
 }
 
 #profile {
@@ -92,7 +90,6 @@ nav a {
     padding: 30px;
     margin-bottom: 20px;
     background: #fff;
-
 }
 
 /* bottom of page */
@@ -116,6 +113,10 @@ footer {
     text-decoration: none;
   }
 
+.social:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
 /* Headers */
 
 h1,
@@ -145,3 +146,6 @@ h3 {
   font-size: 22px;
 }
 
+p:last-child {
+    margin-bottom: 0;
+  }
