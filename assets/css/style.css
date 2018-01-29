@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background: url("assets/img/gplaypattern.png") #ccc;
+    background: url("assets/img/gplaypattern.png") #ececec;
    
 }
 
@@ -64,6 +64,7 @@ nav a {
 /* Main Content */
 
 #content {
+    width:100%;
     max-width: 950px;
     margin: 0 auto;
     padding-top: 130px;
@@ -86,16 +87,17 @@ nav a {
 #sidebar {
     float:right;
     border: 1px solid #ddd;
-    max-width: 270;
+    width: 100%;
+    max-width: 270px;
     padding: 30px;
     margin-bottom: 20px;
     background: #fff;
 }
 
-/* bottom of page */
+/* Footer */
 
 footer {
-      padding: 30px 0;
+      padding: 20px 0;
       border-top: 5px solid #4aaaa5;
       background: #666;
       color: #999;
@@ -110,9 +112,25 @@ footer {
 
 /* Links */
 
-  a {
+a {
     text-decoration: none;
   }
+
+a:visited {
+    color: #7F7F7F;
+}
+
+a:hover {
+    background:#4aaaa5;
+    color: #fff;
+}
+
+a:active{
+    background: #00FFF2;
+    color: #fff;
+}
+
+/* social media links */
 
 .social:hover {
     cursor: pointer;
@@ -120,8 +138,6 @@ footer {
   }
 
 /* Headers */
-
-
 
 h1,
 h2,
@@ -143,15 +159,12 @@ h1 {
     border-bottom: 3px solid #ddd;
   }
 
-h2{
-  font-size: 22px;
-}
-
-#sidebar h2 {
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-  border-bottom: 2px solid #eee;
+h2 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
 }
 
 p:last-child {
@@ -160,7 +173,7 @@ p:last-child {
 
   /* portfolio */
 
-  h3 {
+h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     font-size: 22px;
@@ -168,5 +181,5 @@ p:last-child {
     color: #fff;
     padding: 20px;
     line-height: 22px;
-    background: #4aaaa5;  
+    background: #4aaaa5;
 }
