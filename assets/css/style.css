@@ -179,7 +179,13 @@ h3 {
     font-size: 22px;
     text-align: center;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     line-height: 22px;
     background: #4aaaa5;
+}
+
+.work {
+    width: 100%;
+    max-width: 540px;
+
 }
